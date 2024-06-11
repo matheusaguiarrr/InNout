@@ -7,7 +7,9 @@
 [APACHE__BADGE]: https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white
 [UDEMY__BADGE]: https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white
 
-<h1 align="center" style="font-weight: bold;"> In'N Out 💻</h1>
+<h1 align="center" style="font-weight: bold;">🏃‍♂️ In 'N Out 💼</h1>
+
+https://github.com/matheusaguiarrr/InNout/assets/106553412/d0e1a842-e509-4f08-a8d6-6ddb16478388
 
 ![HTML5][HTML5__BADGE]
 ![CSS3][CSS3__BADGE]
@@ -20,14 +22,18 @@
 
 <p align="center">
   <a href="#started">Getting Started</a> • 
-  <a href="#routes">API Endpoints</a> •
+  <a href="#pastas">Estrutura das Pastas</a> •
+  <a href="#licenca">Licença</a> •
 </p>
 
 <p align="center">
-  <b>Simple description of what your project do or how to use it.</b>
+  <b>Projeto desenvolvido ao final do curso de PHP 7 Completo da Cod3r na plataforma Udemy. In 'N Out é um sistem de ponto eletrônico</b>
 </p>
 
-<h2 id="started">🚀 Getting started</h2>
+<h2 id="started">🚀 Executando o projeto na sua máquina local</h2>
+
+- [PHP 8.3.4](https://github.com)
+
 
 Here you describe how to run your project locally
 
@@ -35,8 +41,7 @@ Here you describe how to run your project locally
 
 Here you list all prerequisites necessary for running your project. For example:
 
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
+
 
 <h3>Cloning</h3>
 
@@ -65,40 +70,17 @@ cd project-name
 npm some-command-to-run
 ``````
 
-
-<h2 id="routes">📍 API Endpoints</h2>
-
-Here you can list the main routes of your API, and what are their expected request bodies.
-​
-| route               | description                                          
-|----------------------|-----------------------------------------------------
-| <kbd>GET /authenticate</kbd>     | retrieves user info see [response details](#get-auth-detail)
-| <kbd>POST /authenticate</kbd>     | authenticate user into the api see [request details](#post-auth-detail)
-
-<h3 id="get-auth-detail">GET /authenticate</h3>
-
-**RESPONSE**
-```json
-{
-  "name": "Fernanda Kipper",
-  "age": 20,
-  "email": "her-email@gmail.com"
-}
-```
-
-<h3 id="post-auth-detail">POST /authenticate</h3>
-
-**REQUEST**
-```json
-{
-  "username": "fernandakipper",
-  "password": "4444444"
-}
-```
-
-**RESPONSE**
-```json
-{
-  "token": "OwoMRHsaQwyAgVoc3OXmL1JhMVUYXGGBbCTK0GBgiYitwQwjf0gVoBmkbuyy0pSi"
-}
-```
+<h2 id="pastas">🗂️ Estrutura das Pastas</h2>
+/extras
+/public
+  /assets
+    /css
+      /fonts
+    /js
+/src
+  /config
+  /controllers
+  /excoptions
+  /models
+  /views
+<h2 id="licenca">📝 Licença</h2>
