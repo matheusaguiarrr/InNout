@@ -71,16 +71,21 @@ npm some-command-to-run
 ``````
 
 <h2 id="pastas">🗂️ Estrutura das Pastas</h2>
-/extras
-/public
-  /assets
-    /css
-      /fonts
-    /js
-/src
-  /config
-  /controllers
-  /excoptions
-  /models
-  /views
+
+```
+extras/
+public/
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── scripts.js
+src/
+├── config/
+├── controllers/
+├── exceptions/
+├── models/
+└── views/
+```
+
 <h2 id="licenca">📝 Licença</h2>
