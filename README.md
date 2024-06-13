@@ -67,3 +67,5 @@ src/
 ```
 
 <h2 id="licenca">📝 Licença</h2>
+
+Este projeto está sob a licença [MIT](LICENSE) license
