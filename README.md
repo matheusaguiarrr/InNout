@@ -21,27 +21,23 @@ https://github.com/matheusaguiarrr/InNout/assets/106553412/d0e1a842-e509-4f08-a8
 ![Udemy][UDEMY__BADGE]
 
 <p align="center">
-  <a href="#started">Getting Started</a> • 
+  <a href="#executando">Executando na sua máquina</a> • 
+  <a href="#funcionalidades">Funcionalidades</a> • 
   <a href="#pastas">Estrutura das Pastas</a> •
   <a href="#licenca">Licença</a> •
 </p>
 
 <p align="center">
-  <b>Projeto desenvolvido ao final do curso de PHP 7 Completo da Cod3r na plataforma Udemy. In 'N Out é um sistem de ponto eletrônico</b>
+  <b>Projeto desenvolvido ao final do curso de PHP 7 Completo da Cod3r na plataforma Udemy. In 'N Out é um sistem de ponto eletrônico.</b>
 </p>
 
-<h2 id="started">🚀 Executando o projeto na sua máquina local</h2>
+<h2 id="executando">🚀 Executando o projeto na sua máquina local</h2>
 
-- [PHP 8.3.4](https://github.com)
+<h3>Pré-Requisitos</h3>
 
-
-Here you describe how to run your project locally
-
-<h3>Prerequisites</h3>
-
-Here you list all prerequisites necessary for running your project. For example:
-
-
+- [PHP 8](https://github.com)
+- [Servidor Apache](https://www.apachefriends.org/pt_br/download.html)
+- [MySQL](https://dev.mysql.com/downloads/installer/)
 
 <h3>Cloning</h3>
 
@@ -51,24 +47,7 @@ How to clone your project
 git clone your-project-url-in-github
 ```
 
-<h3> Environment Variables</h2>
-
-Use the `application.properties.example` as reference to create your configuration file `application.properties` with your AWS Credentials
-
-```yaml
-aws.region=us-east-1
-aws.accessKeyId={YOUR_AWS_KEY_ID}
-aws.secretKey={YOUR_AWS_SECRET}
-```
-
-<h3>Starting</h3>
-
-How to start your project
-
-```bash
-cd project-name
-npm some-command-to-run
-``````
+<h2 id="funcionalidades">Funcionalidades</h2>
 
 <h2 id="pastas">🗂️ Estrutura das Pastas</h2>
 
@@ -77,15 +56,14 @@ extras/
 public/
 ├── assets/
 │   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── scripts.js
+│   ├── js/
 src/
 ├── config/
 ├── controllers/
 ├── exceptions/
 ├── models/
-└── views/
+├── views/
+│   └── template
 ```
 
 <h2 id="licenca">📝 Licença</h2>
