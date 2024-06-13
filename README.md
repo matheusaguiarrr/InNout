@@ -22,7 +22,6 @@ https://github.com/matheusaguiarrr/InNout/assets/106553412/d0e1a842-e509-4f08-a8
 
 <p align="center">
   <a href="#executando">Executando na sua máquina</a> • 
-  <a href="#funcionalidades">Funcionalidades</a> • 
   <a href="#pastas">Estrutura das Pastas</a> •
   <a href="#licenca">Licença</a> •
 </p>
@@ -39,15 +38,13 @@ https://github.com/matheusaguiarrr/InNout/assets/106553412/d0e1a842-e509-4f08-a8
 - [Servidor Apache](https://www.apachefriends.org/pt_br/download.html)
 - [MySQL](https://dev.mysql.com/downloads/installer/)
 
-<h3>Cloning</h3>
+<h3>Clonando o projeto</h3>
 
-How to clone your project
+Como clonar o projeto
 
 ```bash
-git clone your-project-url-in-github
+git clone https://github.com/matheusaguiarrr/InNout.git
 ```
-
-<h2 id="funcionalidades">Funcionalidades</h2>
 
 <h2 id="pastas">🗂️ Estrutura das Pastas</h2>
 
